@@ -2,7 +2,6 @@
     "name" : "okaeli/magento1",
     "type" : "project",
     "description" : "Magento 1 project",
-    "homepage" : "http://julienloizelet.okaeli.com/",
     "require": {
         "php": ">=5.4 <5.6",
         "ext-simplexml" : "*",
@@ -17,8 +16,7 @@
         "aydin-hassan/magento-core-composer-installer": "^1.3",
         "magento/core" : "^1.9.3.6",
         "magento-hackathon/magento-composer-installer":"*",
-        "colinmollenhour/modman": "1.12",
-        "okaeli/magento-categorycode":"dev-master"
+        "colinmollenhour/modman": "1.12"
     },
     "authors" : [
         {
@@ -37,11 +35,6 @@
             "type": "vcs",
             "url": "https://github.com/AydinHassan/magento-core-composer-installer"
         },
-        {
-            "type": "vcs",
-            "url": "https://github.com/julienloizelet/magento-categorycode"
-        },
-
         {
             "type":"composer",
             "url": "https://packages.firegento.com"
