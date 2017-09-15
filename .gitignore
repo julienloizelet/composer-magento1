@@ -1,0 +1,8 @@
+bin/
+vendor/
+.idea
+composer.lock
+htdocs/
+.modman/src
+src/app/etc/local.xml
+src/media/*
