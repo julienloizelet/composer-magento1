@@ -42,10 +42,6 @@
         {
             "type":"composer",
             "url": "https://packages.firegento.com"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/julienloizelet/magento-categorycode"
         }
     ],
     "extra":{
