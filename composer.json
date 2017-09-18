@@ -26,7 +26,9 @@
         "phpunit/phpunit": "4.8.*",
         "yireo/magento1-checkout-tester": "^0.1.12",
         "firegento/debug":"^v1.5",
-        "monsieurbiz/mbiz_iwantmysymlinksback":"dev-master"
+        "monsieurbiz/mbiz_iwantmysymlinksback":"dev-master",
+        "limesoda/limesoda_environment-configuration":"^v1.2",
+        "ultimate/modulecreator":"^1.9.6"
     },
     "authors" : [
         {
@@ -52,6 +54,10 @@
         {
             "type": "vcs",
             "url": "https://github.com/monsieurbiz/Mbiz_IWantMySymlinksBack"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/tzyganu/UMC1.9"
         }
     ],
     "extra":{
