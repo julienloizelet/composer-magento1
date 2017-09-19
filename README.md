@@ -6,6 +6,16 @@ Example : `"magento/core" : "^1.9.3.4"`
 
 * Just run `composer install`
 
+## How to use
+
+* All your extension and third part extension should be included with composer (by adding it in the `composer.json` file.).
+
+* When you need to add some files that are not a part of an extension (typically a `robots.txt` or a theme template,css, etc override.)
+you should use the `src` folder.
+In order to link the `src` folder to the `htdocs` folder, you will need to run the following command :
+`modman link /path/to/the/folder/src` in your root directory. The `src` folder should contain the appropriate `modman` file.
+Then run `modman deploy-all` in your roout directory.
+
 
 ## Remarks
 * Magento decided to disallow symlinks in the patch SUPEE-9767. When working with composer and modman, symlinks are a good system to dynamically add modules.
