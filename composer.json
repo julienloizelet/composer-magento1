@@ -67,5 +67,9 @@
         "magento-deploystrategy": "copy",
         "disable-core-installer": false,
         "auto-append-gitignore": false
+    },
+    "scripts": {
+        "post-install-cmd": "modman deploy-all --force && modman clean && modman repair",
+        "post-update-cmd": "modman deploy-all --force && modman clean && modman repair"
     }
 }
