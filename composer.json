@@ -22,6 +22,7 @@
     "require-dev": {
         "code-x/xtest": "^0.9.0.0",
         "firegento/debug":"^v1.5",
+        "generate-modman/generate-modman":"dev-master",
         "limesoda/limesoda_environment-configuration":"^v1.2",
         "magento-ecg/coding-standard": ">=3.0",
         "monsieurbiz/mbiz_iwantmysymlinksback":"dev-master",
@@ -58,6 +59,10 @@
         {
             "type": "vcs",
             "url": "https://github.com/tzyganu/UMC1.9"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/mhauri/generate-modman"
         }
     ],
     "extra":{
