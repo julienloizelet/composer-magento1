@@ -1,10 +1,14 @@
 {
     "name" : "okaeli/magento1",
     "type" : "project",
-    "description" : "Magento 1 project",
-    "license": "GPL-3.0+",
+    "description" : "Magento 1 project management with composer (and modman)",
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/julienloizelet/composer-magento1/issues"
+    },
+    "keywords": ["magento 1", "composer"],
     "require": {
-        "php": ">=5.4 <5.7",
+        "php": ">=5.3 <5.7",
         "ext-simplexml" : "*",
         "ext-hash" : "*",
         "ext-gd" : "*",
@@ -23,13 +27,10 @@
         "code-x/xtest": "^0.9.0.0",
         "firegento/debug":"^v1.5",
         "generate-modman/generate-modman":"dev-master",
-        "limesoda/limesoda_environment-configuration":"^v1.2",
         "magento-ecg/coding-standard": ">=3.0",
         "monsieurbiz/mbiz_iwantmysymlinksback":"dev-master",
         "phpunit/phpunit": "4.8.*",
-        "squizlabs/php_codesniffer": "3.*",
-        "ultimate/modulecreator":"^1.9.6",
-        "yireo/magento1-checkout-tester": "^0.1.12"
+        "squizlabs/php_codesniffer": "3.*"
     },
     "authors" : [
         {
@@ -55,10 +56,6 @@
         {
             "type": "vcs",
             "url": "https://github.com/monsieurbiz/Mbiz_IWantMySymlinksBack"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/tzyganu/UMC1.9"
         },
         {
             "type": "vcs",
