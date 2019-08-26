@@ -6,7 +6,7 @@
 
 1. Open the `composer.json` file and set the Magento version you want.
 
-   Example : `"magento/core" : "^1.9.3.4"`
+   Example : `"openmage/magento-lts" : "^1.9.4"` or `"magento/core" : "^1.9.3.4"`
 
 1. Run `composer install`.
 
