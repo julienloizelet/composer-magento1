@@ -4,9 +4,11 @@
 ## Installing / Getting started
 1. Clone this repo : `git clone https://github.com/julienloizelet/composer-magento1.git`.
 
-1. Open the `composer.json` file and set the Magento version you want.
+1. Open the `composer.json` file and set the Magento version you want :
 
-   Example : `"openmage/magento-lts" : "^1.9.4"` or `"magento/core" : "^1.9.3.4"`
+   - if you want to use the Openmage LTS sources set `"openmage/magento-lts" : "^1.9.4.2"` and set `"magento-core-package-type": "magento-source"` in the `extra` section of the `composer.json` file.
+   
+   - if you want to use the Magento official sources set `"magento/core" : "^1.9.4.2"` and set `"magento-core-package-type": "magento-core"` in the `extra` section of the `composer.json` file.
 
 1. Run `composer install`.
 
